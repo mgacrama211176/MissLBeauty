@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@media (min-width: 768px) {
+  #mainNav,
+  .navbar,
+  .navbar-default,
+  .navbar a,
+  .navbar-default a,
+  .navbar-default .navbar-brand,
+  .nav > li > a {
+    color: rgb(0, 0, 0) !important;
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .laptop-nav {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.Container {
+  background-color: #171717;
+}
+
+.laptop-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul .logo {
+  width: 10rem;
+}
+
+li {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+li:hover {
+  color: #ead769;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.bookingBtn {
+  border-radius: 33px;
+  width: 13rem;
+  height: 3rem;
+  color: black;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage:before,
+.homepage:after {
+  background-color: transparent;
+}
